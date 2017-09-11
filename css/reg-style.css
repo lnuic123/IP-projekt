@@ -1,0 +1,150 @@
+/* Full-width input fields */
+input[type=text], input[type=password], input[type=email] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+}
+#navcont{
+    padding: 0px 0px;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 30%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .jumbotron#footer{
+        position: static;
+    }
+    .cancelbtn, .signupbtn {
+        width: 100%;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+    .jumbotron#footer{
+        position: static;
+    }
+    #title{
+        font-size: 2em;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .jumbotron#footer{
+        position: static;
+    }
+    #title{
+        font-size: 2em;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .jumbotron#footer{
+        position: static;
+    }
+
+    #FixedDiv {
+        position: absolute;
+    }
+    #title{
+        font-size: 3em;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .jumbotron#footer{
+        position: static;
+    }
+    #FixedDiv {
+        position: absolute;
+    }
+    #title{
+        font-size: 4em;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .jumbotron#footer{
+        position: static;
+    }
+    #FixedDiv {
+        position: absolute;
+    }
+    #title{
+        font-size: 4em;
+    }
+}
+
+
+@media only screen and (min-width : 1400px) {
+    .jumbotron#footer{
+        position: absolute;
+    }
+    #FixedDiv {
+        position: absolute;
+    }
+    #title{
+        font-size: 4em;
+    }
+}
+
+.jumbotron {
+    height: 90px;
+    font-family: Arial Black, Gadget, sans-serif;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.jumbotron#footer{
+    background-color: gray;
+    height: 50px;
+    font-family:'';
+    margin-bottom: 0px;
+    padding: 15px;
+    font-size: 0.25em;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow:hidden;
+}

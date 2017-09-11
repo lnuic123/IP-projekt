@@ -1,0 +1,125 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 10vh;
+  width: 300px; 
+  border: 1px solid lightgray;
+}
+#table-scroll {
+  height:0px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+  color: gray;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
+input[type=text]{
+    width: 290px;
+    padding: 12px 20px;
+    margin: 0px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+td.picked-cell {
+    background-color: lightblue;
+    width: 20px;
+}
+
+td.picked-cell:hover{ 
+    background-color: #7caeff;
+}
+td.matchlist:hover{ 
+    background-color: lightgray;
+}
+td.matchlist{
+    background-color: white;
+    width: 20px;
+}
+
+table {
+	border: 1px solid lightgray;
+}
+
+.row {
+	display: flex; /* equal height of the children */
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+	#title{
+		font-size: 2em;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+	#title{
+		font-size: 2em;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	#title{
+		font-size: 3em;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	#title{
+		font-size: 4em;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	#FixedDiv {
+		position: absolute;
+	}
+	#title{
+		font-size: 4em;
+	}
+}
+
+.jumbotron {
+	height: 90px;
+	font-family: Arial Black, Gadget, sans-serif;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.jumbotron#footer{
+	background-color: gray;
+	height: 50px;
+	font-family:'';
+	margin-bottom: 0px;
+	padding: 15px;
+	font-size: 0.25em;
+	color: white;
+}
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
